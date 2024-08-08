@@ -1,6 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,5 +20,9 @@
 }
 body {
   background-color: #90afc5;
-  /* color: rgb(27, 26, 26); */
+}
+#border-left::before {
+  content: "";
+  border-left: 3px rgb(234 179 8) solid;
+  margin-right: 6px;
 }
