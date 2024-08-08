@@ -1,3 +1,5 @@
+import { Outlet } from "react-router-dom";
+import Navbar from "../layout/Navbar";
 import Sidebar from "../layout/Sidebar";
 
 const AppLayout = () => {
@@ -6,7 +8,10 @@ const AppLayout = () => {
       <div className="md:w-64 w-full">
         <Sidebar />
       </div>
-      <div className="w-full h-full bg-[#2A3132] md:rounded-lg"></div>
+      <div className="w-full h-full bg-[#2A3132] md:rounded-lg flex flex-col gap-0 ">
+        <Navbar />
+        <Outlet />
+      </div>
     </div>
   );
 };
