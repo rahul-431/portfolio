@@ -15,7 +15,7 @@ const Sidebar = () => {
         />
         <div className="flex flex-col">
           <h1 className="text-2xl ">Rahul Mijar</h1>
-          <h2 className="text-gray-400">WEB DEVELOPER</h2>
+          <h2 className="text-gray-400">Software Engineer</h2>
         </div>
       </div>
       <hr className="hidden md:block" />
