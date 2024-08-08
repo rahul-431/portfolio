@@ -10,7 +10,7 @@ const AppLayout = () => {
       </div>
       <div className="w-full h-full bg-[#2A3132] md:rounded-lg flex flex-col gap-0 ">
         <Navbar />
-        <Outlet />
+        <Outlet></Outlet>
       </div>
     </div>
   );
