@@ -7,6 +7,12 @@ import { FaCubesStacked } from "react-icons/fa6";
 const AboutDoingItem = [
   {
     icon: <SiVorondesign />,
+    title: "UI/UX",
+    description:
+      "UI refers to the visual elements that can seen on the page. UX refers to the interction and comfort",
+  },
+  {
+    icon: <SiVorondesign />,
     title: "Frontend Development",
     description:
       "Doing frontend devlopment from past 1.5 years using most popular framework Reactjs and HTML, CSS and JS",
