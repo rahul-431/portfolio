@@ -9,7 +9,7 @@ const Sidebar = () => {
     <div className="flex flex-col h-full w-full gap-6 md:gap-0 bg-[#2A3132] md:rounded-lg p-4 justify-around">
       <div className="flex md:flex-col md:gap-2 items-center md:justify-center gap-6 text-white">
         <img
-          src="img.jpg"
+          src="https://res.cloudinary.com/dvpbl8jew/image/upload/v1723201650/portfolio/zhibjbxayo3gwfylbzps.jpg"
           alt="Personal Image"
           className=" w-24 h-24 rounded-md object-cover"
         />

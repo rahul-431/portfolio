@@ -14,23 +14,24 @@ const Projects = () => {
       : projectsList;
   return (
     <main className="px-4 md:px-6 lg:px-10 flex flex-col overflow-y-scroll no-scrollbar">
-      <div className="flex items-end ">
+      <div className="flex items-end">
         <Filter
           filterField="category"
           options={[
             { label: "All", value: "all" },
-            { label: "Web App", value: "web-app" },
-            { label: "Web Design", value: "web-design" },
-            { label: "Mobile App", value: "mobile-app" },
-            { label: "Desktop App", value: "desktop-app" },
+            { label: "Web", value: "web-app" },
+            { label: "Design", value: "web-design" },
+            { label: "Mobile", value: "mobile-app" },
+            { label: "Desktop", value: "desktop-app" },
           ]}
         />
       </div>
-      <section className="grid grid-cols-3 gap-6 my-6">
+      <section className="grid lg:grid-cols-3 md:grid-cols-2 gap-6 my-6">
         {projectItems.length > 0 ? (
           projectItems.map((item) => (
             <ProjectItem
               key={item.id}
+              id={item.id}
               thumbnail={item.thumbnail}
               title={item.title}
               category={item.category}
