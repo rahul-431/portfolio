@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import AppLayout from "./pages/AppLayout";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -11,9 +16,10 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<AppLayout />}>
-          <Route path="about" element={<About />} />
+          <Route index element={<Navigate replace to="projects" />} />
           <Route index path="projects" element={<Projects />} />
-          <Route index path="projects/:id" element={<ProjectDetail />} />
+          <Route path="about" element={<About />} />
+          <Route path="projects/:id" element={<ProjectDetail />} />
           <Route path="resume" element={<Resume />} />
           <Route path="contact" element={<Contact />} />
         </Route>
