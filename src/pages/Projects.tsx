@@ -19,10 +19,10 @@ const Projects = () => {
           filterField="category"
           options={[
             { label: "All", value: "all" },
-            { label: "Web", value: "web-app" },
-            { label: "Design", value: "web-design" },
-            { label: "Mobile", value: "mobile-app" },
-            { label: "Desktop", value: "desktop-app" },
+            { label: "Frontend", value: "frontend" },
+            { label: "Backend", value: "backend" },
+            { label: "Full Stack", value: "fullstack" },
+            { label: "other", value: "other" },
           ]}
         />
       </div>
