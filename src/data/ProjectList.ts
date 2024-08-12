@@ -66,7 +66,7 @@ export const projectsList = [
     video: "",
   },
   {
-    id: "project102",
+    id: "project103",
     thumbnail:
       "https://res.cloudinary.com/dvpbl8jew/image/upload/v1723392583/portfolio/yf7hmd5fw1ly9bz7tdnh.png",
     title: "Blood bank portal",
@@ -97,6 +97,6 @@ export const projectsList = [
     otherImages: [],
     video: "",
   },
-  
+
   
 ];
