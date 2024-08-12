@@ -37,8 +37,8 @@ export const projectsList = [
     thumbnail:
       "https://res.cloudinary.com/dvpbl8jew/image/upload/v1723473937/portfolio/rbqkkzjlr9sbpgfxng1b.jpg",
     title: "Youtube clone (backend only)",
-    category: "Web App",
-    type: "web-app",
+    category: "Backend",
+    type: "backend",
     description:
       "Developed a robust backend for a YouTube clone application using Express.js and MongoDB. The backend supports essential features such as user authentication, video upload, streaming, commenting, and liking. Implemented RESTful APIs to handle CRUD operations, ensuring efficient data management and smooth user interactions. Utilized JWT for secure user sessions and integrated MongoDB for scalable and flexible data storage. The architecture is designed to be modular and maintainable, with a focus on performance and security, providing a solid foundation for the full-stack application.",
     features: [
@@ -70,8 +70,8 @@ export const projectsList = [
     thumbnail:
       "https://res.cloudinary.com/dvpbl8jew/image/upload/v1723392583/portfolio/yf7hmd5fw1ly9bz7tdnh.png",
     title: "Blood bank portal",
-    category: "Web App",
-    type: "web-app",
+    category: "Other",
+    type: "other",
     description:
       "It is a php and mysql based web application, This application is designed for any blood banks majorly gets on hospitals and other organization. Hospitals can list the blood inventory and able to manage the blood donors and their activities. it will be beneficial for those who really need blood at the mean time.",
     features: [
