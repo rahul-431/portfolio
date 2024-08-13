@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import NavItem from "../ui/NavItem";
 
 const NavItems = [
@@ -22,7 +23,13 @@ const Navbar = () => {
   return (
     <div className=" md:items-start  w-full  flex flex-col gap-2 text-white text-lg px-4 md:px-6 lg:px-10 py-2">
       <div className=" md:hidden flex justify-between items-center h-8 w-full">
-        <h1 className="text-xl text-yellow-500">Rahul Mijar</h1>
+        <Link to="/">
+          <img
+            src="rahul_logo.png"
+            alt="Rahul Mijar"
+            className="w-12 h-12 object-contain "
+          />
+        </Link>
         <h1>Software Engineer</h1>
       </div>
       <div className="">

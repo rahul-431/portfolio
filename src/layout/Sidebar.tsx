@@ -49,10 +49,16 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="flex justify-center items-center gap-4 text-2xl text-white">
-        <NavLink to="#" className="hover:scale-110">
+        <NavLink
+          to="https://np.linkedin.com/in/rahul-mijar-017b8325b"
+          className="hover:scale-110"
+        >
           <FaLinkedin />
         </NavLink>
-        <NavLink to="#" className="hover:scale-110">
+        <NavLink
+          to="https://www.facebook.com/rahul.mijar.0243"
+          className="hover:scale-110"
+        >
           <FaFacebookSquare />
         </NavLink>
         <NavLink to="#" className="hover:scale-110">
