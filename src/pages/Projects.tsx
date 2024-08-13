@@ -35,6 +35,7 @@ const Projects = () => {
               thumbnail={item.thumbnail}
               title={item.title}
               category={item.category}
+              type={item.type}
             />
           ))
         ) : (

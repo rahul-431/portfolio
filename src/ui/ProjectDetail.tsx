@@ -1,38 +1,50 @@
-import { NavLink, useParams } from "react-router-dom";
+import { NavLink, useNavigate, useParams } from "react-router-dom";
 import { projectsList } from "../data/ProjectList";
 import { FaGithub, FaRegImages, FaVideo } from "react-icons/fa";
 import Modal from "./Modal";
 import ImageSlider from "./ImageSlider";
+import { HiMiniArrowLongLeft } from "react-icons/hi2";
 
 const ProjectDetail = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
   const projectData = projectsList.filter((item) => item.id === id);
-  console.log(projectData);
+  const cn =
+    projectData[0].type === "fullstack"
+      ? "bg-green-600"
+      : projectData[0].type === "frontend"
+      ? "bg-blue-600"
+      : projectData[0].type === "backend"
+      ? "bg-red-600"
+      : "bg-violet-600";
   return (
     <section className="flex flex-col px-4 md:px-6 lg:px-10 gap-4 my-5 overflow-y-scroll no-scrollbar">
       <div className="flex justify-between">
         <h1 className="text-2xl text-white" id="border-left">
           Project Detail
         </h1>
-        {projectData[0].isLive && (
-          <NavLink
-            className="text-white px-2 py-1 rounded-sm bg-yellow-700 hover:bg-yellow-600"
-            to={projectData[0].liveLink}
-            target="_blank"
+        <div className="flex gap-2 items-center">
+          <button
+            onClick={() => navigate(-1)}
+            className="flex space-x-2 items-center bg-yellow-700 hover:bg-yellow-600 text-white px-2 py-1"
           >
-            View Live
-          </NavLink>
-        )}
+            <span>
+              <HiMiniArrowLongLeft />
+            </span>
+            <span>Back</span>
+          </button>
+          {projectData[0].isLive && (
+            <NavLink
+              className="text-white px-2 py-1 rounded-sm bg-yellow-700 hover:bg-yellow-600"
+              to={projectData[0].liveLink}
+              target="_blank"
+            >
+              View Live
+            </NavLink>
+          )}
+        </div>
       </div>
       <div className="w-full h-full">
-        {/* {projectData[0].haveVideo ? (
-          <video
-            src={projectData[0].video}
-            autoPlay
-            // controls
-            className="w-full h-96 object-cover"
-          ></video>
-        ) : ( */}
         <img
           src={projectData[0].thumbnail}
           alt="Project Image"
@@ -42,7 +54,9 @@ const ProjectDetail = () => {
       <div className="flex justify-between">
         <div className="flex flex-col">
           <h1 className="text-xl text-white">{projectData[0].title}</h1>
-          <p className="text-lg text-gray-400 uppercase">
+          <p
+            className={`${cn} text-lg px-2  text-white my-2 w-32 text-center rounded-md py-1`}
+          >
             {projectData[0].category}
           </p>
         </div>
@@ -92,9 +106,15 @@ const ProjectDetail = () => {
         <div className="flex flex-col gap-4">
           <div className="flex flex-col gap-2">
             <h1 className="text-xl">Description</h1>
-            <p className="text-justify text-gray-400">
-              {projectData[0].description}
-            </p>
+            {projectData[0].description.length > 0 ? (
+              projectData[0].description.map((item, index) => (
+                <p className="text-justify text-gray-400" key={index}>
+                  {item}
+                </p>
+              ))
+            ) : (
+              <p>No Description</p>
+            )}
           </div>
           <div>
             <h1 className="text-xl">Features</h1>
