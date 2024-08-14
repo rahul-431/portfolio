@@ -64,6 +64,38 @@ export const projectsList = [
       "https://res.cloudinary.com/dvpbl8jew/video/upload/v1723538451/portfolio_vidoe/gujnt9ttgzxxhryuewgx.webm",
   },
   {
+    id: "project108",
+    thumbnail:
+      "https://res.cloudinary.com/dvpbl8jew/image/upload/v1723658076/portfolio/itriuotnwi4gx6um3mz3.png",
+    title: "3D portfolio",
+    category: "Frotend",
+    type: "frontend",
+    description: [
+      "Portfolio with 3d models and cool animations",
+    ],
+    features: [
+    ],
+    tools: [
+      "React Js",
+      "Tailwind",
+      "three",
+      "react-tilt",
+      "framer-motion",
+      "emailjs",
+      "@react-three/drei",
+      "@react-three/fiber",
+      "react-vertical-timeline-component"
+    ],
+    gitLink: "https://github.com/rahul-431/portfolio3d",
+    isLive: true,
+    liveLink: "https://rahulmijar3d.vercel.app/",
+    hasOtherImage: false,
+    haveVideo: false,
+    otherImages: [],
+    video:
+      "",
+  },
+  {
     id: "project102",
     thumbnail:
       "https://res.cloudinary.com/dvpbl8jew/image/upload/v1723201651/portfolio/gjfcpeymzit6ifrdgwie.png",
