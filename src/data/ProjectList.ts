@@ -1,5 +1,5 @@
 export const projectsList = [
-  {
+  {    
     id: "project101",
     thumbnail:
       "https://res.cloudinary.com/dvpbl8jew/image/upload/v1723539973/portfolio/hms/ors72p43atnjgaoakfjo.png",
@@ -62,6 +62,40 @@ export const projectsList = [
     ],
     video:
       "https://res.cloudinary.com/dvpbl8jew/video/upload/v1723538451/portfolio_vidoe/gujnt9ttgzxxhryuewgx.webm",
+  },
+  {
+    id: "project109",
+    thumbnail:
+      "https://res.cloudinary.com/dvpbl8jew/image/upload/v1725181146/portfolio/u0imqtjeykqpvsp8mfsi.png",
+    title: "PromptGen (NEXT.js)",
+    category: "Fullstack",
+    type: "fullstack",
+    description: [
+      "PromptGen is an open-source AI prompting tool for modern world to discover, create and share creative propmts",
+    ],
+    features: [
+      "Sign in with Gogle",
+      "Create a new prompt",
+      "Add new AI tool",
+      "Like the post",
+    ],
+    tools: [
+      "Next",
+      "React",
+      "Tailwind",
+      "Next-auth"
+    ],
+    gitLink: "https://github.com/rahul-431/share_prompts",
+    isLive: true,
+    liveLink: "https://promptgen-beryl.vercel.app/",
+    hasOtherImage: true,
+    haveVideo: false,
+    otherImages: [
+      "https://res.cloudinary.com/dvpbl8jew/image/upload/v1725181146/portfolio/qfg3sptdgy2dypjuxnfv.png",
+      "https://res.cloudinary.com/dvpbl8jew/image/upload/v1725181146/portfolio/ws3sctf7i28meue1w1kz.png"
+    ],
+    video:
+      "",
   },
   {
     id: "project108",
