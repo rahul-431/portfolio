@@ -154,7 +154,7 @@ export const projectsList = [
       "https://res.cloudinary.com/dvpbl8jew/video/upload/v1723206259/portfolio_vidoe/qm4xl38wbso2pfavcmfl.webm",
   },
   {
-    id: "project109",
+    id: "project1012",
     thumbnail:
       "https://res.cloudinary.com/dvpbl8jew/image/upload/v1737729296/portfolio/Screenshot_from_2025-01-24_20-17-25_mroci7.png",
     title: "Drag and drop kanban board",
@@ -191,7 +191,7 @@ export const projectsList = [
     category: "FullStack",
     type: "fullstack",
     description: [
-      "An ecommerce platform for both administration and users. \n Backend code:https://github.com/rahul-431/pet-shop-express \n Frontend code: https://github.com/rahul-431/pet-shop-front",
+      "An ecommerce platform for both administration and users. \n Backend code :https://github.com/rahul-431/pet-shop-express \n Frontend code: https://github.com/rahul-431/pet-shop-front",
     ],
     features: [
       "User authentication",
@@ -231,7 +231,7 @@ export const projectsList = [
     category: "FullStack",
     type: "fullstack",
     description: [
-      "A useful and liberating online code editor for developers of any skill, and particularly empowering for people learning to code, currently support html,css and js only.\n Git link for backend: https://github.com/rahul-431/codepen_backend",
+      "A useful and liberating online code editor for developers of any skill, and particularly empowering for people learning to code, currently support html,css and js only.  \n Backend code: https://github.com/rahul-431/codepen_backend",
     ],
     features: [
       "User authentication",
