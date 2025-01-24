@@ -1,5 +1,5 @@
 export const projectsList = [
-  {    
+  {
     id: "project101",
     thumbnail:
       "https://res.cloudinary.com/dvpbl8jew/image/upload/v1723539973/portfolio/hms/ors72p43atnjgaoakfjo.png",
@@ -38,8 +38,7 @@ export const projectsList = [
       "date-fns",
       "cloudinary",
     ],
-    gitLink:
-      "https://github.com/rahul-431/HMS",
+    gitLink: "https://github.com/rahul-431/HMS",
     isLive: false,
     liveLink: "",
     hasOtherImage: true,
@@ -58,7 +57,7 @@ export const projectsList = [
       "https://res.cloudinary.com/dvpbl8jew/image/upload/v1723539973/portfolio/hms/x3qilmqtfjcli5kachl6.png",
       "https://res.cloudinary.com/dvpbl8jew/image/upload/v1723539973/portfolio/hms/jwmo9dbh9hfkk5l7zv0g.png",
       "https://res.cloudinary.com/dvpbl8jew/image/upload/v1723539973/portfolio/hms/eik77myfsz0wg2kopnkg.png",
-      "https://res.cloudinary.com/dvpbl8jew/image/upload/v1723539973/portfolio/hms/ors72p43atnjgaoakfjo.png"
+      "https://res.cloudinary.com/dvpbl8jew/image/upload/v1723539973/portfolio/hms/ors72p43atnjgaoakfjo.png",
     ],
     video:
       "https://res.cloudinary.com/dvpbl8jew/video/upload/v1723538451/portfolio_vidoe/gujnt9ttgzxxhryuewgx.webm",
@@ -79,12 +78,7 @@ export const projectsList = [
       "Add new AI tool",
       "Like the post",
     ],
-    tools: [
-      "Next",
-      "React",
-      "Tailwind",
-      "Next-auth"
-    ],
+    tools: ["Next", "React", "Tailwind", "Next-auth"],
     gitLink: "https://github.com/rahul-431/share_prompts",
     isLive: true,
     liveLink: "https://promptgen-beryl.vercel.app/",
@@ -92,10 +86,9 @@ export const projectsList = [
     haveVideo: false,
     otherImages: [
       "https://res.cloudinary.com/dvpbl8jew/image/upload/v1725181146/portfolio/qfg3sptdgy2dypjuxnfv.png",
-      "https://res.cloudinary.com/dvpbl8jew/image/upload/v1725181146/portfolio/ws3sctf7i28meue1w1kz.png"
+      "https://res.cloudinary.com/dvpbl8jew/image/upload/v1725181146/portfolio/ws3sctf7i28meue1w1kz.png",
     ],
-    video:
-      "",
+    video: "",
   },
   {
     id: "project108",
@@ -104,11 +97,8 @@ export const projectsList = [
     title: "3D portfolio",
     category: "Frotend",
     type: "frontend",
-    description: [
-      "Portfolio with 3d models and cool animations",
-    ],
-    features: [
-    ],
+    description: ["Portfolio with 3d models and cool animations"],
+    features: [],
     tools: [
       "React Js",
       "Tailwind",
@@ -118,7 +108,7 @@ export const projectsList = [
       "emailjs",
       "@react-three/drei",
       "@react-three/fiber",
-      "react-vertical-timeline-component"
+      "react-vertical-timeline-component",
     ],
     gitLink: "https://github.com/rahul-431/portfolio3d",
     isLive: true,
@@ -126,8 +116,7 @@ export const projectsList = [
     hasOtherImage: false,
     haveVideo: false,
     otherImages: [],
-    video:
-      "",
+    video: "",
   },
   {
     id: "project102",
@@ -164,6 +153,114 @@ export const projectsList = [
     video:
       "https://res.cloudinary.com/dvpbl8jew/video/upload/v1723206259/portfolio_vidoe/qm4xl38wbso2pfavcmfl.webm",
   },
+  {
+    id: "project109",
+    thumbnail:
+      "https://res.cloudinary.com/dvpbl8jew/image/upload/v1737729296/portfolio/Screenshot_from_2025-01-24_20-17-25_mroci7.png",
+    title: "Drag and drop kanban board",
+    category: "Frontend",
+    type: "frontend",
+    description: [
+      "A board where multiple columns can be added, and inside each column we can add multiple tasks.",
+    ],
+    features: [
+      "Add multiple columns",
+      "Sorting columns",
+      "Delete and edit column",
+      "Searching column",
+      "Add task inside each column",
+      "Delete and edit task",
+      "Sorting tasks",
+      "Drag and drop task to another tasks",
+      "Task title and column title can edit either clicking on edit button or by double clicking over it",
+    ],
+    tools: ["Dnd kit", "React", "typescript", "tailwind"],
+    gitLink: "https://github.com/rahul-431/dragd",
+    isLive: true,
+    liveLink: "https://dragd.vercel.app/",
+    hasOtherImage: false,
+    haveVideo: false,
+    otherImages: [],
+    video: "",
+  },
+  {
+    id: "project1011",
+    thumbnail:
+      "https://res.cloudinary.com/dvpbl8jew/image/upload/v1737731182/portfolio/Screenshot_from_2025-01-24_20-48-45_bzwjb4.png",
+    title: "Ecommerce pet-shop",
+    category: "FullStack",
+    type: "fullstack",
+    description: [
+      "An ecommerce platform for both administration and users. \n Backend code:https://github.com/rahul-431/pet-shop-express \n Frontend code: https://github.com/rahul-431/pet-shop-front",
+    ],
+    features: [
+      "User authentication",
+      "Responsive design",
+      "Both admin and client side features",
+      "Like manage users, products, category, orders, blogs",
+      "For users: wishlist, cart, orders and blogs",
+    ],
+    tools: [
+      "Mongodb",
+      "React",
+      "typescript",
+      "tailwind",
+      "express",
+      "nodejs",
+      "shadcn",
+      "react icons",
+      "axios",
+      "tanstack react query",
+      "cloudinary",
+      "jwt",
+    ],
+    gitLink: "https://github.com/rahul-431/pet-shop-express",
+    isLive: true,
+    liveLink: "https://pet-shop101.vercel.app/",
+    hasOtherImage: false,
+    haveVideo: true,
+    otherImages: [],
+    video:
+      "https://res.cloudinary.com/dvpbl8jew/video/upload/v1737731114/portfolio_vidoe/pet-shop-admin_lcnhy2.mp4",
+  },
+  {
+    id: "project1010",
+    thumbnail:
+      "https://res.cloudinary.com/dvpbl8jew/image/upload/v1737730318/portfolio/Screenshot_from_2025-01-24_20-34-25_gppq7y.png",
+    title: "Code editor (codepen clone)",
+    category: "FullStack",
+    type: "fullstack",
+    description: [
+      "A useful and liberating online code editor for developers of any skill, and particularly empowering for people learning to code, currently support html,css and js only.\n Git link for backend: https://github.com/rahul-431/codepen_backend",
+    ],
+    features: [
+      "User authentication",
+      "Responsive design",
+      "Support html, css and js",
+      "CRUD on pen",
+      "CURD on collection of pens",
+    ],
+    tools: [
+      "Mongodb",
+      "React",
+      "typescript",
+      "tailwind",
+      "express",
+      "nodejs",
+      "shadcn",
+      "react icons",
+      "Redux toolkit",
+    ],
+    gitLink: "https://github.com/rahul-431/codepen_frontend",
+    isLive: true,
+    liveLink: "https://codepen-frontend-flame.vercel.app/",
+    hasOtherImage: false,
+    haveVideo: true,
+    otherImages: [],
+    video:
+      "https://res.cloudinary.com/dvpbl8jew/video/upload/v1737730412/portfolio_vidoe/codepen_demo_gthdwx.mp4",
+  },
+
   {
     id: "project103",
     thumbnail:
