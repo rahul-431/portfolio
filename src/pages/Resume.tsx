@@ -25,12 +25,10 @@ const Resume = () => {
           </div>
           <div className="flex flex-col gap-2 ps-7 ms-2 w-full">
             <p className="text-white text-lg">
-              Ambitious and adaptable graduate with a Bachelor's degree in
-              Computer application. Passionate about solving complex problems
-              and continually improving development processes to deliver
-              high-quality software solutions. Aiming to leverage expertise to
-              contribute effectively to innovative projects and drive
-              technological advancements.
+              A self motivated, adaptable, and responsible Software Developer,
+              passionate about solving real world problems and continually
+              improving development processes to deliver high quality software
+              solutions.
             </p>
           </div>
         </div>
@@ -97,6 +95,27 @@ const Resume = () => {
             <div className="flex gap-4 items-center">
               <span className="block w-3 h-3 bg-yellow-500 rounded-full"></span>
               <h1 className="text-white text-lg relative">
+                MERN Stack Internship at{" "}
+                <NavLink to="https://mindriserstech.com/" className="underline">
+                  Mindrisers Tech
+                </NavLink>
+              </h1>
+            </div>
+            <div className="ps-7 text-gray-400 ms-1  border-l border-gray-500">
+              <h2>FEB 2025 - Present</h2>
+              <p className="text-wrap">
+                I started my MERN Stack internship at Mindrisers, and it's been
+                a great learning experience. I've worked on frontend development
+                using NEXT, React and integrated APIs with Node.js and Django.
+                The team is supportive, and I'm gaining hands-on experience in
+                real-world development.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-2 md:px-10 px-4 w-full">
+            <div className="flex gap-4 items-center">
+              <span className="block w-3 h-3 bg-yellow-500 rounded-full"></span>
+              <h1 className="text-white text-lg relative">
                 Software Associate at{" "}
                 <NavLink to="https://truenary.com/" className="underline">
                   Truenary Solution
@@ -148,56 +167,47 @@ const Resume = () => {
           </div>
           <div className="flex flex-col gap-2 ps-7 ms-2 md:w-1/2 w-full">
             <p className="grid grid-cols-2 text-lg text-white">
-              <span>React Js</span>
-              <span>Experienced</span>
+              <span>NEXT JS</span>
+              <span>Typescript</span>
             </p>
             <p className="grid grid-cols-2 text-lg text-white">
-              <span>Express Js</span>
-              <span>Experienced</span>
+              <span>RTK Query</span>
+              <span>Tanstack React Query</span>
+            </p>
+            <p className="grid grid-cols-2 text-lg text-white">
+              <span>React</span>
+              <span>Express</span>
             </p>
             <p className="grid grid-cols-2 text-lg text-white">
               <span>Mongo DB</span>
-              <span>Skillful</span>
+              <span>Node JS</span>
             </p>
             <p className="grid grid-cols-2 text-lg text-white">
-              <span>HTML/CSS</span>
-              <span>Experienced</span>
+              <span>Tailwind</span>
+              <span>Bootstrap</span>
             </p>
             <p className="grid grid-cols-2 text-lg text-white">
-              <span>C#</span>
-              <span>Skillful</span>
+              <span>Version Control (GIT)</span>
+              <span>HTML, CSS, JS</span>
             </p>
             <p className="grid grid-cols-2 text-lg text-white">
-              <span>Java</span>
-              <span>Skillful</span>
+              <span>SQL, NOSQL</span>
+              <span>OOP</span>
             </p>
             <p className="grid grid-cols-2 text-lg text-white">
-              <span>PHP</span>
-              <span>Beginner</span>
+              <span>Shadcn, Material UI</span>
+              <span>Figma</span>
             </p>
             <p className="grid grid-cols-2 text-lg text-white">
               <span>Python</span>
-              <span>Beginner</span>
+              <span>Java, C#</span>
             </p>
             <p className="grid grid-cols-2 text-lg text-white">
-              <span>Express Js</span>
-              <span>Experienced</span>
+              <span>Problem Solving</span>
+              <span>Communication Skills</span>
             </p>
             <p className="grid grid-cols-2 text-lg text-white">
-              <span>SQL / Mysql</span>
-              <span>Skillful</span>
-            </p>
-            <p className="grid grid-cols-2 text-lg text-white">
-              <span>Tailwind and Bootstrap</span>
-              <span>Skillful</span>
-            </p>
-            <p className="grid grid-cols-2 text-lg text-white">
-              <span>Version control (GIT)</span>
-              <span>Experienced</span>
-            </p>
-            <p className="grid grid-cols-2 text-lg text-white">
-              <span>Docker</span>
-              <span>Beginner</span>
+              <span>Computer Skills</span>
             </p>
           </div>
         </div>
@@ -223,7 +233,7 @@ const Resume = () => {
             </p>
             <p className="grid grid-cols-2 text-lg text-white">
               <span>Nepali</span>
-              <span>Excellent</span>
+              <span>Native</span>
             </p>
           </div>
         </div>
@@ -254,3 +264,5 @@ const Resume = () => {
 };
 
 export default Resume;
+
+// oop,database system,Principal of internet technologies ans web application,web engineering, software engineering

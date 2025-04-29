@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import NavItem from "../ui/NavItem";
+import DownloadCVButton from "../ui/DownloadCVButton";
 
 const NavItems = [
   {
@@ -32,12 +33,13 @@ const Navbar = () => {
         </Link>
         <h1>Software Engineer</h1>
       </div>
-      <div className="">
+      <div className="flex justify-between items-center w-full">
         <ul className="flex gap-6 h-12 items-center justify-around">
           {NavItems.map((item) => (
             <NavItem to={item.to} name={item.name} />
           ))}
         </ul>
+        <DownloadCVButton />
       </div>
     </div>
   );
